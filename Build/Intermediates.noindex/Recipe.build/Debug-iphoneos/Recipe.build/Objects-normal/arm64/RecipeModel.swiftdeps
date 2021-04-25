@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecipeModel"
+- "Ingredients"
+- "Steps"
+provides-nominal:
+- "6Recipe0A5ModelV"
+- "6Recipe11IngredientsV"
+- "6Recipe5StepsV"
+provides-member:
+- ["6Recipe0A5ModelV", ""]
+- ["6Recipe11IngredientsV", ""]
+- ["6Recipe5StepsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- "Codable"
+- "Double"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Identifiable"
+- "Image"
+- "Ingredients"
+- !private "IntegerLiteralType"
+- "RecipeModel"
+- "Steps"
+- "String"
+- !private "StringLiteralType"
+- !private "imageName"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", "Default_ID"]
+- ["Se", "ID"]
+- !private ["Se", "Image"]
+- ["Se", ""]
+- ["Se", "_Default_ID"]
+- !private ["Se", "__derived_struct_equals"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "category"]
+- !private ["Se", "comments"]
+- !private ["Se", "desc"]
+- ["Se", "encode"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "id"]
+- !private ["Se", "image"]
+- !private ["Se", "imageName"]
+- !private ["Se", "ingredient"]
+- ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "prepTime"]
+- !private ["Se", "rating"]
+- !private ["Se", "step"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "=="]
+- ["SE", "Default_ID"]
+- ["SE", "ID"]
+- !private ["SE", "Image"]
+- ["SE", ""]
+- ["SE", "_Default_ID"]
+- !private ["SE", "__derived_struct_equals"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "category"]
+- !private ["SE", "comments"]
+- !private ["SE", "desc"]
+- ["SE", "encode"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "id"]
+- !private ["SE", "image"]
+- !private ["SE", "imageName"]
+- !private ["SE", "ingredient"]
+- ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "prepTime"]
+- !private ["SE", "rating"]
+- !private ["SE", "step"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "Default_ID"]
+- ["SQ", "ID"]
+- !private ["SQ", "Image"]
+- ["SQ", ""]
+- ["SQ", "_Default_ID"]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "category"]
+- !private ["SQ", "comments"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "desc"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "id"]
+- !private ["SQ", "image"]
+- !private ["SQ", "imageName"]
+- !private ["SQ", "ingredient"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "name"]
+- !private ["SQ", "prepTime"]
+- !private ["SQ", "rating"]
+- !private ["SQ", "step"]
+- ["SQ", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["SH", "=="]
+- ["SH", "Default_ID"]
+- ["SH", "ID"]
+- !private ["SH", "Image"]
+- ["SH", ""]
+- ["SH", "_Default_ID"]
+- !private ["SH", "__derived_struct_equals"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "category"]
+- !private ["SH", "comments"]
+- ["SH", "debugDescription"]
+- !private ["SH", "desc"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "id"]
+- !private ["SH", "image"]
+- !private ["SH", "imageName"]
+- !private ["SH", "ingredient"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "name"]
+- !private ["SH", "prepTime"]
+- !private ["SH", "rating"]
+- !private ["SH", "step"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["s12IdentifiableP", "=="]
+- ["s12IdentifiableP", "Default_ID"]
+- ["s12IdentifiableP", "ID"]
+- !private ["s12IdentifiableP", "Image"]
+- ["s12IdentifiableP", ""]
+- ["s12IdentifiableP", "_Default_ID"]
+- !private ["s12IdentifiableP", "__derived_struct_equals"]
+- ["s12IdentifiableP", "_rawHashValue"]
+- !private ["s12IdentifiableP", "category"]
+- !private ["s12IdentifiableP", "comments"]
+- !private ["s12IdentifiableP", "desc"]
+- ["s12IdentifiableP", "encode"]
+- ["s12IdentifiableP", "hash"]
+- ["s12IdentifiableP", "hashValue"]
+- ["s12IdentifiableP", "id"]
+- !private ["s12IdentifiableP", "image"]
+- !private ["s12IdentifiableP", "imageName"]
+- !private ["s12IdentifiableP", "ingredient"]
+- ["s12IdentifiableP", "init"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "prepTime"]
+- !private ["s12IdentifiableP", "rating"]
+- !private ["s12IdentifiableP", "step"]
+- !private ["7SwiftUI5ImageV", "init"]
+- ["6Recipe11IngredientsV", "=="]
+- ["6Recipe11IngredientsV", "CodingKeys"]
+- ["6Recipe11IngredientsV", "Default_ID"]
+- ["6Recipe11IngredientsV", "ID"]
+- ["6Recipe11IngredientsV", "String"]
+- ["6Recipe11IngredientsV", ""]
+- ["6Recipe11IngredientsV", "_Default_ID"]
+- ["6Recipe11IngredientsV", "__derived_struct_equals"]
+- ["6Recipe11IngredientsV", "_rawHashValue"]
+- ["6Recipe11IngredientsV", "encode"]
+- ["6Recipe11IngredientsV", "hash"]
+- ["6Recipe11IngredientsV", "hashValue"]
+- ["6Recipe11IngredientsV", "id"]
+- ["6Recipe11IngredientsV", "init"]
+- ["6Recipe11IngredientsV", "name"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["So8NSCodingP", ""]
+- !private ["Sj", ""]
+- ["6Recipe0A5ModelV", "=="]
+- ["6Recipe0A5ModelV", "CodingKeys"]
+- ["6Recipe0A5ModelV", "Default_ID"]
+- ["6Recipe0A5ModelV", "Double"]
+- ["6Recipe0A5ModelV", "ID"]
+- ["6Recipe0A5ModelV", "Image"]
+- ["6Recipe0A5ModelV", "Ingredients"]
+- ["6Recipe0A5ModelV", "Steps"]
+- ["6Recipe0A5ModelV", "String"]
+- ["6Recipe0A5ModelV", ""]
+- ["6Recipe0A5ModelV", "_Default_ID"]
+- ["6Recipe0A5ModelV", "__derived_struct_equals"]
+- ["6Recipe0A5ModelV", "_rawHashValue"]
+- ["6Recipe0A5ModelV", "category"]
+- ["6Recipe0A5ModelV", "comments"]
+- ["6Recipe0A5ModelV", "desc"]
+- ["6Recipe0A5ModelV", "encode"]
+- ["6Recipe0A5ModelV", "hash"]
+- ["6Recipe0A5ModelV", "hashValue"]
+- ["6Recipe0A5ModelV", "id"]
+- ["6Recipe0A5ModelV", "image"]
+- !private ["6Recipe0A5ModelV", "imageName"]
+- ["6Recipe0A5ModelV", "ingredient"]
+- ["6Recipe0A5ModelV", "init"]
+- ["6Recipe0A5ModelV", "name"]
+- ["6Recipe0A5ModelV", "prepTime"]
+- ["6Recipe0A5ModelV", "rating"]
+- ["6Recipe0A5ModelV", "step"]
+- !private ["s13SignedNumericP", ""]
+- ["6Recipe5StepsV", "=="]
+- ["6Recipe5StepsV", "CodingKeys"]
+- ["6Recipe5StepsV", "Default_ID"]
+- ["6Recipe5StepsV", "ID"]
+- ["6Recipe5StepsV", "String"]
+- ["6Recipe5StepsV", ""]
+- ["6Recipe5StepsV", "_Default_ID"]
+- ["6Recipe5StepsV", "__derived_struct_equals"]
+- ["6Recipe5StepsV", "_rawHashValue"]
+- ["6Recipe5StepsV", "desc"]
+- ["6Recipe5StepsV", "encode"]
+- ["6Recipe5StepsV", "hash"]
+- ["6Recipe5StepsV", "hashValue"]
+- ["6Recipe5StepsV", "id"]
+- ["6Recipe5StepsV", "init"]
+- !private ["Sx", ""]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "s9CodingKeyP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "s12IdentifiableP"
+- !private "7SwiftUI5ImageV"
+- "6Recipe11IngredientsV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "So8NSCodingP"
+- !private "Sj"
+- "6Recipe0A5ModelV"
+- !private "s13SignedNumericP"
+- "6Recipe5StepsV"
+- !private "Sx"
+- !private "7SwiftUI4ViewP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f7e118dd60ba2043a14406d4cac0cf97"

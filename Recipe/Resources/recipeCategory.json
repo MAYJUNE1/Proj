@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Appetizer",
+        "color": {
+            "red" : 225,
+            "green" : 204,
+            "blue" : 204
+        }
+    },
+    {
+        "id": "2",
+        "name": "Main Dish",
+        "color": {
+            "red" : 255,
+            "green" : 255,
+            "blue" : 153
+        }
+    },
+    {
+        "id": "3",
+        "name": "Soup & Stew",
+        "color": {
+            "red" : 204,
+            "green" : 102,
+            "blue" : 0
+        }
+    },
+    {
+        "id": "4",
+        "name": "Dessert",
+        "color": {
+            "red" : 255,
+            "green" : 204,
+            "blue" : 255
+        }
+    },
+    {
+        "id": "5",
+        "name": "Beverage",
+        "color": {
+            "red" : 102,
+            "green" : 178,
+            "blue" : 255
+        }
+    },
+    {
+        "id": "6",
+        "name": "Vegetarian",
+        "color": {
+            "red" : 204,
+            "green" : 255,
+            "blue" : 204
+        }
+    }
+]

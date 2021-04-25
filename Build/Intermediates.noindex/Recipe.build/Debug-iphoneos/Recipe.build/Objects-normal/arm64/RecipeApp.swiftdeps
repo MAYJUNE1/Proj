@@ -1,0 +1,195 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecipeApp"
+provides-nominal:
+- "6Recipe0A3AppV"
+provides-member:
+- ["6Recipe0A3AppV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "App"
+- !private "Array"
+- "ContentView"
+- "Environment"
+- "ModelData"
+- "PersistenceController"
+- "RecipeApp"
+- "Scene"
+- "StateObject"
+- !private "WindowGroup"
+- "modelData"
+depends-member:
+- !private ["7SwiftUI3AppP", "$main"]
+- ["7SwiftUI3AppP", "Body"]
+- !private ["7SwiftUI3AppP", "ContentView"]
+- ["7SwiftUI3AppP", "Default_Body"]
+- ["7SwiftUI3AppP", "Environment"]
+- ["7SwiftUI3AppP", "ModelData"]
+- ["7SwiftUI3AppP", "PersistenceController"]
+- ["7SwiftUI3AppP", "StateObject"]
+- !private ["7SwiftUI3AppP", "WindowGroup"]
+- ["7SwiftUI3AppP", ""]
+- ["7SwiftUI3AppP", "_Default_Body"]
+- ["7SwiftUI3AppP", "body"]
+- ["7SwiftUI3AppP", "init"]
+- ["7SwiftUI3AppP", "main"]
+- !private ["7SwiftUI3AppP", "modelData"]
+- !private ["6Recipe11ContentViewV", ""]
+- !private ["6Recipe11ContentViewV", "environmentObject"]
+- !private ["6Recipe11ContentViewV", "init"]
+- ["s23CustomStringConvertibleP", "managedObjectContext"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- ["7SwiftUI11EnvironmentV", "init"]
+- ["7SwiftUI11EnvironmentV", "projectedValue"]
+- ["7SwiftUI11EnvironmentV", "subscript"]
+- ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- ["7SwiftUI11EnvironmentV", "wrapperValue"]
+- ["7SwiftUI17EnvironmentValuesV", "managedObjectContext"]
+- !private ["SQ", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["7SwiftUI12FetchRequestV", "init"]
+- !private ["7SwiftUI12FetchRequestV", "projectedValue"]
+- !private ["7SwiftUI12FetchRequestV", "subscript"]
+- !private ["7SwiftUI12FetchRequestV", "wrappedValue"]
+- !private ["7SwiftUI12FetchRequestV", "wrapperValue"]
+- ["s7KeyPathC", ""]
+- ["6Recipe9ModelDataC", ""]
+- ["6Recipe9ModelDataC", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["So20NSFetchRequestResultP", "id"]
+- ["So15NSManagedObjectC", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "id"]
+- ["7Combine16ObservableObjectP", "init"]
+- ["6Recipe21PersistenceControllerV", "shared"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["6RecipeAAC", ""]
+- ["6Recipe0A3AppV", "$modelData"]
+- ["6Recipe0A3AppV", "Body"]
+- !private ["6Recipe0A3AppV", "ContentView"]
+- ["6Recipe0A3AppV", "Default_Body"]
+- ["6Recipe0A3AppV", "Environment"]
+- ["6Recipe0A3AppV", "ModelData"]
+- ["6Recipe0A3AppV", "PersistenceController"]
+- ["6Recipe0A3AppV", "Scene"]
+- ["6Recipe0A3AppV", "StateObject"]
+- !private ["6Recipe0A3AppV", "WindowGroup"]
+- ["6Recipe0A3AppV", ""]
+- ["6Recipe0A3AppV", "_Default_Body"]
+- !private ["6Recipe0A3AppV", "_modelData"]
+- !private ["6Recipe0A3AppV", "_viewContext"]
+- ["6Recipe0A3AppV", "body"]
+- ["6Recipe0A3AppV", "init"]
+- ["6Recipe0A3AppV", "main"]
+- ["6Recipe0A3AppV", "modelData"]
+- ["6Recipe0A3AppV", "persistenceController"]
+- ["6Recipe0A3AppV", "viewContext"]
+- ["6Recipe0A8CategoryV", ""]
+- ["6Recipe0A5ModelV", ""]
+- !private ["7SwiftUI5SceneP", "init"]
+- !private ["7SwiftUI12SceneBuilderV", "buildBlock"]
+- !private ["7SwiftUI12SceneBuilderV", "buildExpression"]
+- !private ["7SwiftUI12SceneBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI12SceneBuilderV", "buildIf"]
+- !private ["7SwiftUI12SceneBuilderV", "buildOptional"]
+- !private ["7SwiftUI5StateV", "init"]
+- !private ["7SwiftUI5StateV", "projectedValue"]
+- !private ["7SwiftUI5StateV", "subscript"]
+- !private ["7SwiftUI5StateV", "wrappedValue"]
+- ["7SwiftUI11StateObjectV", "init"]
+- ["7SwiftUI11StateObjectV", "projectedValue"]
+- ["7SwiftUI11StateObjectV", "subscript"]
+- ["7SwiftUI11StateObjectV", "wrappedValue"]
+- !private ["7SwiftUI4ViewP", "environmentObject"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["7SwiftUI11WindowGroupV", "init"]
+- ["s15WritableKeyPathC", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "7SwiftUI3AppP"
+- !private "6Recipe11ContentViewV"
+- "s23CustomStringConvertibleP"
+- "7SwiftUI15DynamicPropertyP"
+- "7SwiftUI11EnvironmentV"
+- "7SwiftUI17EnvironmentValuesV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "7SwiftUI12FetchRequestV"
+- "s7KeyPathC"
+- "6Recipe9ModelDataC"
+- !private "So8NSCodingP"
+- !private "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7Combine16ObservableObjectP"
+- "6Recipe21PersistenceControllerV"
+- "7Combine9PublishedV"
+- !private "6RecipeAAC"
+- "6Recipe0A3AppV"
+- "6Recipe0A8CategoryV"
+- "6Recipe0A5ModelV"
+- !private "7SwiftUI5SceneP"
+- !private "7SwiftUI12SceneBuilderV"
+- !private "7SwiftUI5StateV"
+- "7SwiftUI11StateObjectV"
+- !private "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI11WindowGroupV"
+- "s15WritableKeyPathC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5f10868720a34bdee61e3da8394eb343"

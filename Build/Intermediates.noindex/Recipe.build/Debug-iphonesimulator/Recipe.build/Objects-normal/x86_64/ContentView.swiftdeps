@@ -1,0 +1,654 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContentView"
+- "ContentView_Previews"
+provides-nominal:
+- "6Recipe11ContentViewV"
+- "6Recipe11ContentViewV3TabO"
+- "6Recipe20ContentView_PreviewsV"
+provides-member:
+- ["6Recipe11ContentViewV", ""]
+- ["6Recipe11ContentViewV3TabO", ""]
+- ["6Recipe20ContentView_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "$selection"
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "ContentView"
+- "ContentView_Previews"
+- "DateFormatter"
+- "DiscoverHome"
+- "Environment"
+- "FetchRequest"
+- "FetchedResults"
+- "FloatLiteralType"
+- "IndexSet"
+- "Ingredient"
+- "IntegerLiteralType"
+- "Label"
+- !private "ModelData"
+- "NSError"
+- "NSSortDescriptor"
+- !private "PersistenceController"
+- "PreviewProvider"
+- "Recipe"
+- "State"
+- "StringLiteralType"
+- "Tab"
+- !private "TabView"
+- "UnicodeScalarType"
+- "UserHome"
+- "View"
+- "fatalError"
+- !private "itemFormatter"
+- "items"
+- "viewContext"
+- !private "withAnimation"
+depends-member:
+- ["7SwiftUI10AnimatableP", ""]
+- ["7SwiftUI9AnimationV", "default"]
+- !private ["Sa", "forEach"]
+- ["SK", ""]
+- !private ["SK", "distance"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "forEach"]
+- !private ["SK", "formIndex"]
+- !private ["SK", "index"]
+- !private ["SK", "indices"]
+- !private ["SK", "map"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "forEach"]
+- ["s7CVarArgP", "dateStyle"]
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "recipeIngredient"]
+- !private ["s7CVarArgP", "save"]
+- ["s7CVarArgP", "timeStyle"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "viewContext"]
+- ["Sl", ""]
+- !private ["Sl", "_copyToContiguousArray"]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "map"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "underestimatedCount"]
+- ["SL", ""]
+- !private ["6Recipe11ContentViewV", "$selection"]
+- ["6Recipe11ContentViewV", "Body"]
+- ["6Recipe11ContentViewV", "Default_Body"]
+- !private ["6Recipe11ContentViewV", "DiscoverHome"]
+- ["6Recipe11ContentViewV", "Environment"]
+- ["6Recipe11ContentViewV", "FetchRequest"]
+- ["6Recipe11ContentViewV", "FetchedResults"]
+- ["6Recipe11ContentViewV", "IndexSet"]
+- !private ["6Recipe11ContentViewV", "Ingredient"]
+- !private ["6Recipe11ContentViewV", "Label"]
+- !private ["6Recipe11ContentViewV", "NSError"]
+- ["6Recipe11ContentViewV", "NSSortDescriptor"]
+- ["6Recipe11ContentViewV", "Recipe"]
+- ["6Recipe11ContentViewV", "State"]
+- ["6Recipe11ContentViewV", "Tab"]
+- !private ["6Recipe11ContentViewV", "TabView"]
+- !private ["6Recipe11ContentViewV", "UserHome"]
+- ["6Recipe11ContentViewV", "View"]
+- ["6Recipe11ContentViewV", ""]
+- ["6Recipe11ContentViewV", "_Default_Body"]
+- !private ["6Recipe11ContentViewV", "_items"]
+- ["6Recipe11ContentViewV", "_makeView"]
+- ["6Recipe11ContentViewV", "_makeViewList"]
+- !private ["6Recipe11ContentViewV", "_selection"]
+- !private ["6Recipe11ContentViewV", "_viewContext"]
+- ["6Recipe11ContentViewV", "_viewListCount"]
+- !private ["6Recipe11ContentViewV", "addItem"]
+- ["6Recipe11ContentViewV", "body"]
+- !private ["6Recipe11ContentViewV", "deleteItems"]
+- !private ["6Recipe11ContentViewV", "environment"]
+- !private ["6Recipe11ContentViewV", "fatalError"]
+- ["6Recipe11ContentViewV", "init"]
+- !private ["6Recipe11ContentViewV", "items"]
+- !private ["6Recipe11ContentViewV", "selection"]
+- !private ["6Recipe11ContentViewV", "viewContext"]
+- !private ["6Recipe11ContentViewV", "withAnimation"]
+- !private ["6Recipe20ContentView_PreviewsV", "ContentView"]
+- ["6Recipe20ContentView_PreviewsV", "Default_Previews"]
+- !private ["6Recipe20ContentView_PreviewsV", "ModelData"]
+- !private ["6Recipe20ContentView_PreviewsV", "PersistenceController"]
+- ["6Recipe20ContentView_PreviewsV", "Previews"]
+- ["6Recipe20ContentView_PreviewsV", "View"]
+- ["6Recipe20ContentView_PreviewsV", ""]
+- ["6Recipe20ContentView_PreviewsV", "_Default_Previews"]
+- ["6Recipe20ContentView_PreviewsV", "_platform"]
+- ["6Recipe20ContentView_PreviewsV", "_previews"]
+- ["6Recipe20ContentView_PreviewsV", "init"]
+- ["6Recipe20ContentView_PreviewsV", "platform"]
+- ["6Recipe20ContentView_PreviewsV", "previews"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "dateStyle"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "recipeIngredient"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- ["s28CustomDebugStringConvertibleP", "timeStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- ["s17CustomReflectableP", "default"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "dateStyle"]
+- ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "managedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "recipeIngredient"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- ["s23CustomStringConvertibleP", "timeStyle"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "viewContext"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- ["So15NSDateFormatterC", "dateStyle"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "timeStyle"]
+- ["Se", "default"]
+- !private ["Se", "forEach"]
+- !private ["Se", "map"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["6Recipe12DiscoverHomeV", ""]
+- !private ["6Recipe12DiscoverHomeV", "init"]
+- !private ["6Recipe12DiscoverHomeV", "tabItem"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- ["SE", "default"]
+- !private ["SE", "forEach"]
+- !private ["SE", "map"]
+- ["7SwiftUI11EnvironmentV", "init"]
+- ["7SwiftUI11EnvironmentV", "projectedValue"]
+- ["7SwiftUI11EnvironmentV", "subscript"]
+- ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- ["7SwiftUI11EnvironmentV", "wrapperValue"]
+- !private ["7SwiftUI17EnvironmentObjectV", "init"]
+- !private ["7SwiftUI17EnvironmentObjectV", "projectedValue"]
+- !private ["7SwiftUI17EnvironmentObjectV", "subscript"]
+- !private ["7SwiftUI17EnvironmentObjectV", "wrappedValue"]
+- ["7SwiftUI17EnvironmentValuesV", "managedObjectContext"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "dateStyle"]
+- ["SQ", "default"]
+- !private ["SQ", "delete"]
+- ["SQ", "featured"]
+- !private ["SQ", "forEach"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "list"]
+- !private ["SQ", "map"]
+- ["SQ", "medium"]
+- !private ["SQ", "name"]
+- !private ["SQ", "recipeIngredient"]
+- !private ["SQ", "save"]
+- ["SQ", "short"]
+- ["SQ", "timeStyle"]
+- !private ["SQ", "userInfo"]
+- !private ["SQ", "viewContext"]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s23ExpressibleByNilLiteralP", "default"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["7SwiftUI12FetchRequestV", "init"]
+- ["7SwiftUI12FetchRequestV", "projectedValue"]
+- ["7SwiftUI12FetchRequestV", "subscript"]
+- ["7SwiftUI12FetchRequestV", "wrappedValue"]
+- ["7SwiftUI12FetchRequestV", "wrapperValue"]
+- !private ["7SwiftUI14FetchedResultsV", "subscript"]
+- ["So11NSFormatterC", ""]
+- ["So11NSFormatterC", "dateStyle"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "timeStyle"]
+- ["7SwiftUI7GestureP", "default"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "dateStyle"]
+- ["SH", "default"]
+- !private ["SH", "delete"]
+- ["SH", "featured"]
+- !private ["SH", "forEach"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "id"]
+- ["SH", "init"]
+- !private ["SH", "list"]
+- !private ["SH", "map"]
+- ["SH", "medium"]
+- !private ["SH", "name"]
+- !private ["SH", "recipeIngredient"]
+- !private ["SH", "save"]
+- ["SH", "short"]
+- ["SH", "timeStyle"]
+- !private ["SH", "userInfo"]
+- !private ["SH", "viewContext"]
+- !private ["s6HasherV", "combine"]
+- ["s12IdentifiableP", "id"]
+- !private ["s12IdentifiableP", "init"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "recipeIngredient"]
+- !private ["10Foundation8IndexSetV", "map"]
+- !private ["6Recipe10IngredientC", ""]
+- !private ["6Recipe10IngredientC", "id"]
+- !private ["6Recipe10IngredientC", "init"]
+- !private ["6Recipe10IngredientC", "name"]
+- ["s7KeyPathC", ""]
+- !private ["7SwiftUI5LabelV", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["6Recipe9ModelDataC", ""]
+- !private ["6Recipe9ModelDataC", "init"]
+- !private ["SM", ""]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "dateStyle"]
+- !private ["So8NSCodingP", "delete"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "save"]
+- ["So8NSCodingP", "timeStyle"]
+- !private ["So8NSCodingP", "userInfo"]
+- ["So9NSCopyingP", ""]
+- ["So9NSCopyingP", "dateStyle"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "timeStyle"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So7NSErrorC", "userInfo"]
+- ["So20NSFetchRequestResultP", "id"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "recipeIngredient"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "save"]
+- ["So15NSManagedObjectC", ""]
+- ["So15NSManagedObjectC", "id"]
+- !private ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "recipeIngredient"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "dateStyle"]
+- !private ["So8NSObjectC", "delete"]
+- !private ["So8NSObjectC", "deleteObject"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "recipeIngredient"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "sortDescriptorWithKey"]
+- ["So8NSObjectC", "timeStyle"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "viewContext"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "dateStyle"]
+- !private ["So8NSObjectP", "delete"]
+- !private ["So8NSObjectP", "deleteObject"]
+- ["So8NSObjectP", "id"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "recipeIngredient"]
+- !private ["So8NSObjectP", "save"]
+- ["So8NSObjectP", "sortDescriptorWithKey"]
+- ["So8NSObjectP", "timeStyle"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So8NSObjectP", "viewContext"]
+- !private ["So21NSPersistentContainerC", "viewContext"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- ["So16NSSortDescriptorC", "init"]
+- ["7Combine16ObservableObjectP", "id"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "name"]
+- !private ["7Combine16ObservableObjectP", "recipeIngredient"]
+- ["Sq", "default"]
+- !private ["6Recipe21PersistenceControllerV", "container"]
+- !private ["6Recipe21PersistenceControllerV", "preview"]
+- !private ["7SwiftUI15PreviewProviderP", "ContentView"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI15PreviewProviderP", "ModelData"]
+- !private ["7SwiftUI15PreviewProviderP", "PersistenceController"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["7Combine9PublishedV", "init"]
+- !private ["7Combine9PublishedV", "projectedValue"]
+- !private ["7Combine9PublishedV", "subscript"]
+- !private ["7Combine9PublishedV", "wrappedValue"]
+- !private ["Sk", ""]
+- !private ["Sk", "distance"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "formIndex"]
+- !private ["Sk", "index"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- ["SY", "medium"]
+- ["SY", "short"]
+- ["6RecipeAAC", ""]
+- ["6RecipeAAC", "id"]
+- !private ["6RecipeAAC", "init"]
+- !private ["6RecipeAAC", "recipeIngredient"]
+- !private ["6Recipe0A8CategoryV", ""]
+- !private ["6Recipe0A5ModelV", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "map"]
+- ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "forEach"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s10SetAlgebraP", "map"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["So20NSDateFormatterStyleV", "medium"]
+- ["So20NSDateFormatterStyleV", "short"]
+- ["6Recipe11ContentViewV3TabO", "=="]
+- ["6Recipe11ContentViewV3TabO", ""]
+- ["6Recipe11ContentViewV3TabO", "__derived_enum_equals"]
+- ["6Recipe11ContentViewV3TabO", "_rawHashValue"]
+- ["6Recipe11ContentViewV3TabO", "featured"]
+- ["6Recipe11ContentViewV3TabO", "hash"]
+- ["6Recipe11ContentViewV3TabO", "hashValue"]
+- ["6Recipe11ContentViewV3TabO", "list"]
+- !private ["7SwiftUI7TabViewV", "init"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["6Recipe8UserHomeV", ""]
+- !private ["6Recipe8UserHomeV", "init"]
+- !private ["6Recipe8UserHomeV", "tabItem"]
+- !private ["7SwiftUI4ViewP", "$selection"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- !private ["7SwiftUI4ViewP", "DiscoverHome"]
+- ["7SwiftUI4ViewP", "Environment"]
+- ["7SwiftUI4ViewP", "FetchRequest"]
+- !private ["7SwiftUI4ViewP", "Ingredient"]
+- !private ["7SwiftUI4ViewP", "Label"]
+- ["7SwiftUI4ViewP", "NSSortDescriptor"]
+- ["7SwiftUI4ViewP", "Recipe"]
+- ["7SwiftUI4ViewP", "State"]
+- !private ["7SwiftUI4ViewP", "Tab"]
+- !private ["7SwiftUI4ViewP", "TabView"]
+- !private ["7SwiftUI4ViewP", "UserHome"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "addItem"]
+- ["7SwiftUI4ViewP", "body"]
+- ["7SwiftUI4ViewP", "default"]
+- !private ["7SwiftUI4ViewP", "deleteItems"]
+- !private ["7SwiftUI4ViewP", "environment"]
+- !private ["7SwiftUI4ViewP", "environmentObject"]
+- !private ["7SwiftUI4ViewP", "fatalError"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "items"]
+- !private ["7SwiftUI4ViewP", "selection"]
+- !private ["7SwiftUI4ViewP", "tabItem"]
+- !private ["7SwiftUI4ViewP", "tag"]
+- !private ["7SwiftUI4ViewP", "viewContext"]
+- !private ["7SwiftUI4ViewP", "withAnimation"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- ["s15WritableKeyPathC", ""]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recipeIngredient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delete"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "recipeIngredient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "default"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["7SwiftUI16_PreviewProviderP", "ContentView"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "ModelData"]
+- !private ["7SwiftUI16_PreviewProviderP", "PersistenceController"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+depends-nominal:
+- "7SwiftUI10AnimatableP"
+- "7SwiftUI9AnimationV"
+- !private "Sa"
+- "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "6Recipe11ContentViewV"
+- "6Recipe20ContentView_PreviewsV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "So15NSDateFormatterC"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "6Recipe12DiscoverHomeV"
+- "7SwiftUI15DynamicPropertyP"
+- "SE"
+- "7SwiftUI11EnvironmentV"
+- !private "7SwiftUI17EnvironmentObjectV"
+- "7SwiftUI17EnvironmentValuesV"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "7SwiftUI12FetchRequestV"
+- !private "7SwiftUI14FetchedResultsV"
+- "So11NSFormatterC"
+- "7SwiftUI7GestureP"
+- "SH"
+- !private "s6HasherV"
+- "s12IdentifiableP"
+- !private "10Foundation8IndexSetV"
+- !private "6Recipe10IngredientC"
+- "s7KeyPathC"
+- !private "7SwiftUI5LabelV"
+- "s25LosslessStringConvertibleP"
+- !private "6Recipe9ModelDataC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So21NSPersistentContainerC"
+- "So14NSSecureCodingP"
+- "So16NSSortDescriptorC"
+- "7Combine16ObservableObjectP"
+- "Sq"
+- !private "6Recipe21PersistenceControllerV"
+- "7SwiftUI15PreviewProviderP"
+- !private "7Combine9PublishedV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "6RecipeAAC"
+- !private "6Recipe0A8CategoryV"
+- !private "6Recipe0A5ModelV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s10SetAlgebraP"
+- "7SwiftUI5StateV"
+- !private "s27StringInterpolationProtocolP"
+- "So20NSDateFormatterStyleV"
+- "6Recipe11ContentViewV3TabO"
+- !private "7SwiftUI7TabViewV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So18UIFocusEnvironmentP"
+- !private "6Recipe8UserHomeV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- "s15WritableKeyPathC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bade7c58499e40b8245709db36cf734b"

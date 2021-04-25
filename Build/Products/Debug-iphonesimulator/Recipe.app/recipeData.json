@@ -1,0 +1,350 @@
+[
+    {
+        "id": "1",
+        "name": "Rack of Lamb",
+        "category": "2",
+        "desc": "some description",
+        "rating": 6.5,
+        "comments": "10",
+        "prepTime": "30 mins",
+        "imageName": "lamb",
+        "ingredient": [
+            {
+                "id": "1",
+                "name": "1 rack of lamb"
+            },
+            {
+                "id": "2",
+                "name": "3 sprigs fresh thyme"
+            },
+            {
+                "id": "3",
+                "name": "2 sprigs fresh rosemary"
+            },
+            {
+                "id": "4",
+                "name": "2 cloves garlic"
+            }
+        ],
+        "step": [
+            {
+                "id": "1",
+                "desc": "Preheat the oven to 350ºF / 175ºC."
+            },
+            {
+                "id": "2",
+                "desc": "Chop thyme, rosemary, and garlic together, then place in a large bowl. Add salt, pepper, chilli powder, olive oil, and lemon juice; mix well, then set aside."
+            },
+            {
+                "id": "3",
+                "desc": "If necessary, trim off some extra fat on the rack of lamb, then cut lamb into 4 pieces. (You can also ask your butcher to prep it for you!)"
+            },
+            {
+                "id": "4",
+                "desc": "Place lamb in the spice mixture, then rub the spice mixture onto the lamb using your hands, covering all sides. Cover and chill in the fridge for 30 minutes."
+            },
+            {
+                "id": "5",
+                "desc": "Heat oil in a large cast iron or skillet. Sear all sides of the lamb until meat is dark brown and crispy. When it’s almost done, pour in red wine then remove from the heat."
+            },
+            {
+                "id": "6",
+                "desc": "Roast the lamb in the oven for 10-15 minutes or until the internal temperature reaches 145˚F / 63˚C"
+            },
+            {
+                "id": "7",
+                "desc": "Serve with roasted veggies."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Shrimp Fettuccine",
+        "category": "2",
+        "desc": "",
+        "rating": 10,
+        "comments": "100",
+        "prepTime": "20 mins",
+        "imageName": "garlic",
+        "ingredient": [
+            {
+                "id": "1",
+                "name": "Virgin olive oil"
+            },
+            {
+                "id": "2",
+                "name": "Unsalted butter"
+            },
+            {
+                "id": "3",
+                "name": "Garlic"
+            },
+            {
+                "id": "4",
+                "name": "Raw shrimp"
+            },
+            {
+                "id": "5",
+                "name": "Red pepper flakes"
+            },
+            {
+                "id": "6",
+                "name": "Fresh lemon juice"
+            }
+        ],
+        "step": [
+            {
+                "id": "1",
+                "desc": "In a large pan, melt together the olive oil and 2 tablespoons of butter over medium heat. Add the garlic and sauté for 30–60 seconds, until fragrant."
+            },
+            {
+                "id": "2",
+                "desc": "Add the shrimp to the pan in a single layer. Cook for 1–2 minutes on one side, until just beginning to turn pink, then flip. Add the Holland House® White Cooking Wine and red pepper flakes. Bring to a simmer and cook for 2–3 minutes, or until the wine reduces by about half and the shrimp are cooked through."
+            },
+            {
+                "id": "3",
+                "desc": "Add the lemon juice and remaining 2 tablespoons of butter and stir until the butter melts. Season with salt and pepper to taste. Fold in ¼ cup chopped parsley."
+            },
+            {
+                "id": "4",
+                "desc": "Toss the shrimp and sauce with fettuccine until well coated. Garnish with the remaining tablespoon of chopped parsley. Serve immediately."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Taco Dip",
+        "category": "1",
+        "desc": "",
+        "rating": 4.6,
+        "comments": "100",
+        "prepTime": "10 ~ 30 mins",
+        "imageName": "taco",
+        "ingredient": [
+            {
+                "id": "1",
+                "name": "ground beef"
+            },
+            {
+                "id": "2",
+                "name": "1 poblano pepper"
+            },
+            {
+                "id": "3",
+                "name": "tortilla chip"
+            },
+            {
+                "id": "4",
+                "name": "1 block cream cheese"
+            },
+            {
+                "id": "5",
+                "name": "milk"
+            },
+        ],
+        "step": [
+            {
+                "id": "1",
+                "desc": "For the dip, cook ground beef until brown. Add taco seasoning and stir. Set the beef aside and cook chopped poblano pepper."
+            },
+            {
+                "id": "2",
+                "desc": "In a saucepan, combine all cheese Pretty much any amount of each will work. Melt over low heat. Stir in milk as needed to reach a medium-thick consistency."
+            },
+            {
+                "id": "3",
+                "desc": "In a saucepan, combine all cheese Pretty much any amount of each will work. Melt over low heat. Stir in milk as needed to reach a medium-thick consistency."
+            },
+            {
+                "id": "4",
+                "desc": "For the bowl, preheat oven to 375°F (190°C ). Take a large flour tortilla and warm for a few seconds in the oven. Spray the outside of upside-down oven-safe bowl with canola oil and press tortilla over the top. Cook in oven until brown."
+            },
+            {
+                "id": "5",
+                "desc": "Fill tortilla bowl with dip."
+            },
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Three Bean Salad",
+        "category": "1",
+        "desc": "",
+        "rating": 7.8,
+        "comments": "100",
+        "prepTime": "10mins",
+        "imageName": "beans",
+        "ingredient": [
+            {
+                "id": "1",
+                "name": "½ red onion"
+            },
+            {
+                "id": "2",
+                "name": "½ large english cucumber"
+            },
+            {
+                "id": "3",
+                "name": "15 oz chickpeas (425 g), 1 can, drained and rinsed"
+            },
+            {
+                "id": "4",
+                "name": "15 oz kidney bean (425 g), 1 can, drained and rinsed"
+            },
+            {
+                "id": "5",
+                "name": "15 oz cannellini bean (425 g), 1 can, drained and rinsed"
+            },
+        ],
+        "step": [
+            {
+                "id": "1",
+                "desc": "Thinly slice the red onion and add to a large bowl."
+            },
+            {
+                "id": "2",
+                "desc": "Quarter the cucumber, remove the seeds and dice, then add to the bowl with the red onion."
+            },
+            {
+                "id": "3",
+                "desc": "Use a fork to remove the leaves from the parsley, then finely chop and add to the bowl."
+            },
+            {
+                "id": "4",
+                "desc": "Add the chickpeas, kidney beans, and cannellini beans to the bowl."
+            },
+            {
+                "id": "5",
+                "desc": "In a liquid measuring cup or small bowl, combine the olive oil, red wine vinegar, oregano, salt, and pepper, and whisk together."
+            },
+            {
+                "id": "6",
+                "desc": "Pour the dressing over the salad and mix well until evenly distributed."
+            },
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Honey Chicken",
+        "category": "2",
+        "desc": "",
+        "rating": 8.8,
+        "comments": "100",
+        "prepTime": "1 hour",
+        "imageName": "grillchicken",
+        "ingredient": [
+            {
+                "id": "1",
+                "name": "6 bone-in, skin-on chicken thighs"
+            },
+            {
+                "id": "2",
+                "name": "salt"
+            },
+            {
+                "id": "3",
+                "name": "pepper"
+            },
+            {
+                "id": "4",
+                "name": "3 cloves garlic"
+            },
+            {
+                "id": "5",
+                "name": "1 tablespoon brown sugar"
+            },
+            {
+                "id": "6",
+                "name": "¼ cup honey (85 g)"
+            },
+        ],
+        "step": [
+            {
+                "id": "1",
+                "desc": "Preheat oven to 400˚F (200˚C)"
+            },
+            {
+                "id": "2",
+                "desc": "Season chicken thighs with salt and pepper."
+            },
+            {
+                "id": "3",
+                "desc": "Melt 1 tablespoon butter in a large ovenproof skillet over medium heat. Add chicken, skin-side down, and sear both sides until golden brown. (The skin side will take much longer, in order to properly render the fat and crisp up the skin.)"
+            },
+            {
+                "id": "4",
+                "desc": "Remove chicken thighs and set aside. Pour out any excess fat, but leave some in for the sauce."
+            },
+            {
+                "id": "5",
+                "desc": "Add garlic, stir until fragrant, then add brown sugar, honey, thyme, and oregano, and stir. Reduce heat to low."
+            },
+            {
+                "id": "6",
+                "desc": "Return chicken to the skillet. Coat the chicken in the sauce."
+            },
+            {
+                "id": "7",
+                "desc": "Add green beans to skillet."
+            },
+            {
+                "id": "8",
+                "desc": "Bake for 25 minutes or until chicken is cooked through."
+            },
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Clam Chowder",
+        "category": "3",
+        "desc": "",
+        "rating": 6.9,
+        "comments": "100",
+        "prepTime": "20 mins",
+        "imageName": "garlic",
+        "ingredient": [
+            {
+                "id": "1",
+                "name": "4 oz bacon (115 g), 4 slices, chopped"
+            },
+            {
+                "id": "2",
+                "name": "2 cups onion (300 g), diced"
+            },
+            {
+                "id": "3",
+                "name": "1 cup celery (225 g), diced"
+            },
+            {
+                "id": "4",
+                "name": "1 teaspoon black pepper"
+            },
+            {
+                "id": "5",
+                "name": "2 cups heavy cream (480 mL)"
+            },
+            {
+                "id": "6",
+                "name": "oyster cracker, for garnish"
+            }
+        ],
+        "step": [
+            {
+                "id": "1",
+                "desc": "Place a fine mesh strainer over a medium bowl and strain the 4 cans of minced clams, separating the meat from the juices."
+            },
+            {
+                "id": "2",
+                "desc": "Using a 6-quart dutch oven or pot of similar size, fry bacon over medium-high heat until fat renders and the edges begin to crisp."
+            },
+            {
+                "id": "3",
+                "desc": "Add onion and sauté until softened and translucent, about 3 to 5 minutes."
+            },
+            {
+                "id": "4",
+                "desc": "Reduce heat to low and add carrots, celery and flour, stirring constantly for 3-5 minutes to avoid lumps."
+            }
+        ]
+    },
+]
